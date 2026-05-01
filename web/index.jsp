@@ -5,6 +5,7 @@
 <html>
 <head>
     <title>Real Estate Portal - Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
         table { border-collapse: collapse; width: 80%; margin-top: 20px; }
         th, td { border: 1px solid black; padding: 10px; text-align: left; }
@@ -14,17 +15,17 @@
     </style>
 </head>
 <body>
-    <h1>Available Properties</h1>
+    <h1>Real Estate Portal                      Available Properties</h1>
 
     <!-- Your Buttons -->
-    <a href="add-property.jsp"><button>Add New Property</button></a>
-    <a href="delete-property.jsp"><button>Delete a Property</button></a>
+    <a href="add-property.jsp"><button class="btn btn-success">Add New Property</button></a>
+    <a href="delete-property.jsp"><button class="btn btn-danger">Delete a Property</button></a>
 
     <!-- THE NEW SEARCH BAR -->
     <input type="text" id="searchInput" placeholder="Search by Location (e.g., Colombo)...">
 
     <!-- Added id="propertyTable" to the table -->
-    <table id="propertyTable">
+    <table class="table table-striped table-hover mt-4" id="propertyTable">
         <tr>
             <th>ID</th>
             <th>Type</th>
