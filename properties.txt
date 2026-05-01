@@ -1,0 +1,2 @@
+101,Residential,Colombo,50000.0,3
+102,Residential,Kandy,25000.0,2
